@@ -1,2 +1,8 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key: 1839d65e-f87f-411b-83ed-12359f2f7e6d
+  app: fast-woodland-47271
+  on:
+    repo: JonMoore9000/node-shopping-list-integration-tests
